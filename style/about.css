@@ -1,0 +1,58 @@
+html {
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color: red;
+    color: white;
+}
+.about-us{
+background-color: #EEE;
+padding: 100px 0;
+}
+.about-us .contanier{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 85%;
+	margin: auto;
+}
+
+.about-us .contanier .image{
+	border: 8px #164863 dashed;
+    border-top-right-radius: 290px;
+    border-top-left-radius: 290px;
+    border-bottom-left-radius: 290px;
+    border-bottom-right-radius: 290px;
+}
+.about-us .contanier .image img {
+	width: 400px;
+	height: 620px;
+	border-top-right-radius: 290px;
+    border-top-left-radius: 290px;
+    border-bottom-left-radius: 290px;
+    border-bottom-right-radius: 290px;
+    padding-top: 5px;
+}
+.about-us .contanier .paragraph{
+	direction: rtl;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	color: rgba(0, 0, 0, 0.703);
+}
+.about-us .contanier .paragraph h3{
+	margin: 5px 0;
+	border-bottom: #164863 2px solid;
+	width: fit-content;
+	padding-bottom: 10px;
+}
+.about-us .contanier .paragraph p{
+	padding: 5px 0;
+	line-height: 1.5;
+	
+}
+.about-us .contanier .paragraph .Vision,
+.about-us .contanier .paragraph .message{
+	width: 300px;
+	text-align: start;
+}

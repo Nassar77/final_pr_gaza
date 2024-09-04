@@ -1,0 +1,67 @@
+
+.paient-search {
+    background-image: url(../images/doctor-with-stethoscope-hand-hospital-background_34200-156.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+::selection{
+    background-color: red;
+    color: white;
+}
+.paient-search .contanier{
+    width: 321px;
+    height: 354px;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 20px;
+    border: 1px solid rgb(57, 129, 133);
+    background-color: rgba(240, 248, 255, 0.425);
+    margin: auto;
+}
+.paient-search h1 {
+    font-size: 250%;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+/* .input-box {
+    width: 100%;
+    height: 50px;
+    padding: 30px 0;
+
+} */
+
+.paient-search input::placeholder {
+    color: black;
+    font-size: larger;
+    text-align: right;
+}
+
+.input-box input {
+    width: 100%;
+    height: 80%;
+    border: 1px solid rgb(71 141 143 / 56%);
+    border-radius: 5px;
+    font-size: larger;
+    margin: 15px 0;
+    padding: 5px;
+}
+.paient-search button {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding: 8px 0 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    background-image: linear-gradient(rgb(93, 93, 211), rgb(54, 181, 249), rgb(7, 241, 255));
+    cursor: pointer;
+}
+.paient-search  .contanier form  input:focus {
+    outline: none;
+}
+

@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+.ask{
+    direction: rtl;
+    background-color: #EEE;
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.707);
+}
+::selection{
+    background-color: red;
+    color: white;
+}
+.ask .contanier{
+    width: 90%;
+    margin: auto;
+}
+.ask .contanier h1{
+    text-align: center;
+    margin: 50px 0;
+}
+.ask .contanier div{
+    width: 900px;
+    margin: 50px;
+    line-height: 1.5;
+    word-spacing: 2px;
+}
+.ask .contanier div h3{
+    width: 800px;
+    padding-bottom: 10px;
+}

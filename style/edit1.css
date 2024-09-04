@@ -1,0 +1,69 @@
+/*body { 
+
+    background-image: url(IMG-20231103-WA0025.jpg);
+    background-repeat: no-repeat;
+    background-size: 1240px 597px;
+    opacity: ;
+/* }*/
+html {
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+::selection{
+    background-color: red;
+    color: white;
+}
+.edit{
+    padding: 100px   0;
+    background-image: url("../images/d92263959497d93a826ff6860aa4b684.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.edit form h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+.edit form div {
+    border: 2px solid #eee;
+    width: 450px;
+    margin:  auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.423);
+    padding: 30px 20px;
+    border-radius: 22px;
+}
+
+.edit form div input {
+    border: 1px solid rgb(71 141 143 / 56%);
+    border-radius: 22px;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+}
+
+.edit form div button {
+    border-radius: 20px;
+    width: 250px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(93, 93, 211), rgb(54, 181, 249), rgb(7, 241, 225));
+    color: white;
+    border: none;
+    height: 36px;
+    cursor: pointer;
+}
+
+.edit form div input:focus {
+    outline: none;
+}
+
+
+
+
